@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div#commentsbox {
+	display:block;
+	width:635px;
+	margin:0 auto;
+}
+div.userimage, div.usercomment {	
+	display:block;
+}
+div.userimage {
+	height:44px;
+}
+div.userimage img {
+	float:left;
+	margin:0 10px 0 0;
+}
+div.usercomment {
+	/*width:569px;*/
+	width:auto;
+	background: #FFF url(../images/userarrow.jpg) top left no-repeat;
+	padding:6px;
+	margin:3px 0 0 0;
+}
+div.usercomment p {
+	padding:0 0 0 0;
+	margin:3px 0 3px 0;
+}
+.guestid, .timeadded {
+	display:block;
+	line-height:1.25em;
+}
+.guestid{
+	color:#b1bf3e;
+	font-weight:normal;
+	font-size:11px;
+}
+.timeadded {
+	display:block;
+	font-size:9px;
+}
+div.commentblock {
+	border-bottom:1px dashed #d0d9cc;
+	padding:0 0 15px 0;
+	margin:0 0 15px 0;
+}
+div.actionbtns {
+	text-align:right;
+	padding:10px 0 0 0;
+}
+div.actionbtns a {
+	text-align:right;
+	padding:0 5px 0 0;
+	background-color:#4b6923;
+	color:#FFF;
+	text-decoration:none;
+}
+div.actionbtns a span {
+	padding:0 0 0 5px;
+	background-color:#4b6923;
+}
+div.commentreply {
+	width:569px;
+	float:right;
+	margin:2px 0 0 0;
+}
+ 
